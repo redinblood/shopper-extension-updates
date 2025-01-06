@@ -4,7 +4,7 @@ This repository hosts the Chrome extension for accessing Similarweb's Shopper In
 
 ## Installation
 
-1. Download the latest `shopper-intelligence.crx` file from [here](https://redinblood.github.io/shopper-extension-updates/shopper-intelligence.crx)
+1. Download the latest `shopper-intelligence.crx` file from [here](https://github.com/redinblood/shopper-extension-updates/raw/main/shopper-intelligence.crx)
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top right)
 4. Drag and drop the downloaded `.crx` file into the extensions page
