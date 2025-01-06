@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Shopper Intelligence on Amazon (v1.6)",
+  "version": "1.6",
+  "update_url": "https://redinblood.github.io/shopper-extension-updates/updates.xml",
+  "description": "Access Similarweb's Shopper Intelligence pages directly from Amazon product pages",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://redinblood.github.io/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.amazon.com/*",
+        "*://*.amazon.co.uk/*",
+        "*://*.amazon.ca/*",
+        "*://*.amazon.de/*",
+        "*://*.amazon.fr/*",
+        "*://*.amazon.it/*",
+        "*://*.amazon.es/*",
+        "*://*.amazon.in/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+} 
